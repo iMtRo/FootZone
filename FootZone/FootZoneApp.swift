@@ -1,17 +1,16 @@
-//
-//  FootZoneApp.swift
-//  FootZone
-//
-//  Created by iMtRo on 27/06/22.
-//
-
 import SwiftUI
 
 @main
 struct FootZoneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
     }
+}
+
+
+extension UIScene {
+    static let width = UIScreen.main.bounds.size.width
+    static let height = UIScreen.main.bounds.size.height
 }

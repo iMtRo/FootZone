@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		CE3A29DA286992190008F287 /* FootZoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A29D9286992190008F287 /* FootZoneApp.swift */; };
-		CE3A29DC286992190008F287 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A29DB286992190008F287 /* ContentView.swift */; };
 		CE3A29DE2869921B0008F287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3A29DD2869921B0008F287 /* Assets.xcassets */; };
 		CE3A29E12869921B0008F287 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3A29E02869921B0008F287 /* Preview Assets.xcassets */; };
+		CE3A29EE286993890008F287 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A29ED286993890008F287 /* TabBarView.swift */; };
+		CE3A29F0286993DE0008F287 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A29EF286993DE0008F287 /* HomeView.swift */; };
+		CE3A29F2286994170008F287 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A29F1286994170008F287 /* ListView.swift */; };
+		CE3A29F42869945F0008F287 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A29F32869945F0008F287 /* AccountView.swift */; };
+		CED3DA87286EE5EE009180B4 /* NearZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DA86286EE5EE009180B4 /* NearZone.swift */; };
+		CED3DA8A286EE9E1009180B4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DA89286EE9E1009180B4 /* MapView.swift */; };
+		CEE2744D286C29F70013CA39 /* HomeSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2744C286C29F70013CA39 /* HomeSheetView.swift */; };
+		CEE9652F286F2841003247B3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9652E286F2841003247B3 /* SignUpView.swift */; };
+		CEEA2224286AD91C009B14CA /* ListViewSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA2223286AD91C009B14CA /* ListViewSignIn.swift */; };
+		CEEA2227286AD946009B14CA /* ListViewSignOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA2226286AD946009B14CA /* ListViewSignOut.swift */; };
+		CEEA222B286AEE2C009B14CA /* AccauntViewSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA222A286AEE2C009B14CA /* AccauntViewSignIn.swift */; };
+		CEEA222E286B263A009B14CA /* ImagePikerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA222D286B263A009B14CA /* ImagePikerView.swift */; };
+		CEEA2230286B2690009B14CA /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA222F286B2690009B14CA /* Cordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3A29D6286992190008F287 /* FootZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A29D9286992190008F287 /* FootZoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootZoneApp.swift; sourceTree = "<group>"; };
-		CE3A29DB286992190008F287 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3A29DD2869921B0008F287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3A29E02869921B0008F287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE3A29ED286993890008F287 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		CE3A29EF286993DE0008F287 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE3A29F1286994170008F287 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CE3A29F32869945F0008F287 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		CED3DA86286EE5EE009180B4 /* NearZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearZone.swift; sourceTree = "<group>"; };
+		CED3DA89286EE9E1009180B4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CEE2744C286C29F70013CA39 /* HomeSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSheetView.swift; sourceTree = "<group>"; };
+		CEE9652E286F2841003247B3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CEEA2223286AD91C009B14CA /* ListViewSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewSignIn.swift; sourceTree = "<group>"; };
+		CEEA2226286AD946009B14CA /* ListViewSignOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewSignOut.swift; sourceTree = "<group>"; };
+		CEEA222A286AEE2C009B14CA /* AccauntViewSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccauntViewSignIn.swift; sourceTree = "<group>"; };
+		CEEA222D286B263A009B14CA /* ImagePikerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePikerView.swift; sourceTree = "<group>"; };
+		CEEA222F286B2690009B14CA /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				CE3A29D9286992190008F287 /* FootZoneApp.swift */,
-				CE3A29DB286992190008F287 /* ContentView.swift */,
-				CE3A29DD2869921B0008F287 /* Assets.xcassets */,
+				CE3A29E8286992750008F287 /* Screens */,
+				CEEA222C286B2622009B14CA /* Utills */,
+				CE3A29E7286992620008F287 /* AppUtils */,
 				CE3A29DF2869921B0008F287 /* Preview Content */,
 			);
 			path = FootZone;
@@ -65,6 +90,129 @@
 				CE3A29E02869921B0008F287 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE3A29E7286992620008F287 /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A29DD2869921B0008F287 /* Assets.xcassets */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		CE3A29E8286992750008F287 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A29E92869927F0008F287 /* RegisterView */,
+				CE3A29EA286992F40008F287 /* TabBarView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE3A29E92869927F0008F287 /* RegisterView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegisterView;
+			sourceTree = "<group>";
+		};
+		CE3A29EA286992F40008F287 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A29ED286993890008F287 /* TabBarView.swift */,
+				CEE9652D286F26B2003247B3 /* RegistrationView */,
+				CEE2744A286C27980013CA39 /* HomeView */,
+				CEEA2221286AD850009B14CA /* ListView */,
+				CEEA2228286AEBC2009B14CA /* AccountView */,
+				CED3DA88286EE8C6009180B4 /* MapView */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		CED3DA83286EE56E009180B4 /* SheetView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2744C286C29F70013CA39 /* HomeSheetView.swift */,
+				CED3DA86286EE5EE009180B4 /* NearZone.swift */,
+			);
+			path = SheetView;
+			sourceTree = "<group>";
+		};
+		CED3DA88286EE8C6009180B4 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				CED3DA89286EE9E1009180B4 /* MapView.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		CEE2744A286C27980013CA39 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A29EF286993DE0008F287 /* HomeView.swift */,
+				CEE2744B286C29DA0013CA39 /* HomeView-groups */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		CEE2744B286C29DA0013CA39 /* HomeView-groups */ = {
+			isa = PBXGroup;
+			children = (
+				CED3DA83286EE56E009180B4 /* SheetView */,
+			);
+			path = "HomeView-groups";
+			sourceTree = "<group>";
+		};
+		CEE9652D286F26B2003247B3 /* RegistrationView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9652E286F2841003247B3 /* SignUpView.swift */,
+			);
+			path = RegistrationView;
+			sourceTree = "<group>";
+		};
+		CEEA2221286AD850009B14CA /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A29F1286994170008F287 /* ListView.swift */,
+				CEEA2222286AD866009B14CA /* ListView_Groups */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		CEEA2222286AD866009B14CA /* ListView_Groups */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA2223286AD91C009B14CA /* ListViewSignIn.swift */,
+				CEEA2226286AD946009B14CA /* ListViewSignOut.swift */,
+			);
+			path = ListView_Groups;
+			sourceTree = "<group>";
+		};
+		CEEA2228286AEBC2009B14CA /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A29F32869945F0008F287 /* AccountView.swift */,
+				CEEA2229286AEE04009B14CA /* AccountView_Group */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		CEEA2229286AEE04009B14CA /* AccountView_Group */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA222A286AEE2C009B14CA /* AccauntViewSignIn.swift */,
+			);
+			path = AccountView_Group;
+			sourceTree = "<group>";
+		};
+		CEEA222C286B2622009B14CA /* Utills */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA222D286B263A009B14CA /* ImagePikerView.swift */,
+				CEEA222F286B2690009B14CA /* Cordinator.swift */,
+			);
+			path = Utills;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +231,8 @@
 			dependencies = (
 			);
 			name = FootZone;
+			packageProductDependencies = (
+			);
 			productName = FootZone;
 			productReference = CE3A29D6286992190008F287 /* FootZone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +261,8 @@
 				Base,
 			);
 			mainGroup = CE3A29CD286992190008F287;
+			packageReferences = (
+			);
 			productRefGroup = CE3A29D7286992190008F287 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3A29DC286992190008F287 /* ContentView.swift in Sources */,
+				CEE2744D286C29F70013CA39 /* HomeSheetView.swift in Sources */,
+				CEEA2227286AD946009B14CA /* ListViewSignOut.swift in Sources */,
+				CE3A29F42869945F0008F287 /* AccountView.swift in Sources */,
+				CED3DA87286EE5EE009180B4 /* NearZone.swift in Sources */,
+				CED3DA8A286EE9E1009180B4 /* MapView.swift in Sources */,
+				CEEA2224286AD91C009B14CA /* ListViewSignIn.swift in Sources */,
+				CEEA222E286B263A009B14CA /* ImagePikerView.swift in Sources */,
+				CE3A29EE286993890008F287 /* TabBarView.swift in Sources */,
+				CE3A29F2286994170008F287 /* ListView.swift in Sources */,
+				CEEA2230286B2690009B14CA /* Cordinator.swift in Sources */,
+				CEE9652F286F2841003247B3 /* SignUpView.swift in Sources */,
+				CE3A29F0286993DE0008F287 /* HomeView.swift in Sources */,
+				CEEA222B286AEE2C009B14CA /* AccauntViewSignIn.swift in Sources */,
 				CE3A29DA286992190008F287 /* FootZoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
