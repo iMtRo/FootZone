@@ -5,6 +5,7 @@ struct FootZoneApp: App {
     var body: some Scene {
         WindowGroup {
             TabBarView()
+            //SignInView()
         }
     }
 }

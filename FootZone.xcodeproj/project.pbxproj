@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE23A5CF2872B50600479FDF /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23A5CE2872B50600479FDF /* SignInView.swift */; };
+		CE23A5D12872B7C000479FDF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23A5D02872B7C000479FDF /* Model.swift */; };
+		CE23A5D32872BF5D00479FDF /* SignViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23A5D22872BF5D00479FDF /* SignViewElement.swift */; };
+		CE37A1B7287EB1ED00A1AD46 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = CE37A1B6287EB1ED00A1AD46 /* iPhoneNumberField */; };
 		CE3A29DA286992190008F287 /* FootZoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A29D9286992190008F287 /* FootZoneApp.swift */; };
 		CE3A29DE2869921B0008F287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3A29DD2869921B0008F287 /* Assets.xcassets */; };
 		CE3A29E12869921B0008F287 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3A29E02869921B0008F287 /* Preview Assets.xcassets */; };
@@ -26,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE23A5CE2872B50600479FDF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		CE23A5D02872B7C000479FDF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE23A5D22872BF5D00479FDF /* SignViewElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewElement.swift; sourceTree = "<group>"; };
 		CE3A29D6286992190008F287 /* FootZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A29D9286992190008F287 /* FootZoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootZoneApp.swift; sourceTree = "<group>"; };
 		CE3A29DD2869921B0008F287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE37A1B7287EB1ED00A1AD46 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +120,9 @@
 		CE3A29E92869927F0008F287 /* RegisterView */ = {
 			isa = PBXGroup;
 			children = (
+				CEE9652E286F2841003247B3 /* SignUpView.swift */,
+				CE23A5CE2872B50600479FDF /* SignInView.swift */,
+				CE23A5D22872BF5D00479FDF /* SignViewElement.swift */,
 			);
 			path = RegisterView;
 			sourceTree = "<group>";
@@ -120,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				CE3A29ED286993890008F287 /* TabBarView.swift */,
-				CEE9652D286F26B2003247B3 /* RegistrationView */,
 				CEE2744A286C27980013CA39 /* HomeView */,
 				CEEA2221286AD850009B14CA /* ListView */,
 				CEEA2228286AEBC2009B14CA /* AccountView */,
@@ -163,14 +173,6 @@
 			path = "HomeView-groups";
 			sourceTree = "<group>";
 		};
-		CEE9652D286F26B2003247B3 /* RegistrationView */ = {
-			isa = PBXGroup;
-			children = (
-				CEE9652E286F2841003247B3 /* SignUpView.swift */,
-			);
-			path = RegistrationView;
-			sourceTree = "<group>";
-		};
 		CEEA2221286AD850009B14CA /* ListView */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +213,7 @@
 			children = (
 				CEEA222D286B263A009B14CA /* ImagePikerView.swift */,
 				CEEA222F286B2690009B14CA /* Cordinator.swift */,
+				CE23A5D02872B7C000479FDF /* Model.swift */,
 			);
 			path = Utills;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			);
 			name = FootZone;
 			packageProductDependencies = (
+				CE37A1B6287EB1ED00A1AD46 /* iPhoneNumberField */,
 			);
 			productName = FootZone;
 			productReference = CE3A29D6286992190008F287 /* FootZone.app */;
@@ -262,6 +266,7 @@
 			);
 			mainGroup = CE3A29CD286992190008F287;
 			packageReferences = (
+				CE37A1B5287EB1ED00A1AD46 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
 			);
 			productRefGroup = CE3A29D7286992190008F287 /* Products */;
 			projectDirPath = "";
@@ -292,12 +297,15 @@
 				CEE2744D286C29F70013CA39 /* HomeSheetView.swift in Sources */,
 				CEEA2227286AD946009B14CA /* ListViewSignOut.swift in Sources */,
 				CE3A29F42869945F0008F287 /* AccountView.swift in Sources */,
+				CE23A5D32872BF5D00479FDF /* SignViewElement.swift in Sources */,
 				CED3DA87286EE5EE009180B4 /* NearZone.swift in Sources */,
 				CED3DA8A286EE9E1009180B4 /* MapView.swift in Sources */,
 				CEEA2224286AD91C009B14CA /* ListViewSignIn.swift in Sources */,
 				CEEA222E286B263A009B14CA /* ImagePikerView.swift in Sources */,
+				CE23A5D12872B7C000479FDF /* Model.swift in Sources */,
 				CE3A29EE286993890008F287 /* TabBarView.swift in Sources */,
 				CE3A29F2286994170008F287 /* ListView.swift in Sources */,
+				CE23A5CF2872B50600479FDF /* SignInView.swift in Sources */,
 				CEEA2230286B2690009B14CA /* Cordinator.swift in Sources */,
 				CEE9652F286F2841003247B3 /* SignUpView.swift in Sources */,
 				CE3A29F0286993DE0008F287 /* HomeView.swift in Sources */,
@@ -503,6 +511,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE37A1B5287EB1ED00A1AD46 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE37A1B6287EB1ED00A1AD46 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE37A1B5287EB1ED00A1AD46 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE3A29CE286992190008F287 /* Project object */;
 }

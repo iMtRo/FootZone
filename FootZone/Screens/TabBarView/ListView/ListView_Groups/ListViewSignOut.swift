@@ -13,14 +13,16 @@ struct ListViewSignOut: View {
                 .font(.system(size: 18))
             
             
-            Button(action: {}, label: {
+            NavigationLink{
+                SignInView()
+            } label: {
                 Text("Kirish")
                     .foregroundColor(.white)
                     .padding()
                     .padding(.horizontal)
                     .background(.blue)
                     .cornerRadius(25)
-            })
+            }
         }
         
     }

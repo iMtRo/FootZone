@@ -156,7 +156,6 @@ struct HomeSheetView : View {
 struct ModalView_Previews: PreviewProvider{
     static var previews: some View{
         HomeSheetView(isShowing: .constant(true))
-        //HomeView()
     }
 }
 
